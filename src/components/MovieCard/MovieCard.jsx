@@ -1,6 +1,7 @@
 import { memo, useState } from "react";
 import  FavoriteButton  from "../FavoriteButton/FavoriteButton";
 import { Modal } from "../Modal";
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ name, img, rating, trailerYoutubeId}) => {
 const [isModalOpen, setModalOpen] = useState(false)
@@ -17,6 +18,7 @@ const showModal = () => {
         <div className="absolute flex gap-2 top-2 right-2 z-10">
           <FavoriteButton />
           <button onClick={showModal}>🎥</button>
+          <Link to={`/movie/${trailerYoutubeId}`}>🎞</Link>
         </div> 
 
         {isModalOpen && (
