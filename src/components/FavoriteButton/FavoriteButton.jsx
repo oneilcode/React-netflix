@@ -8,9 +8,13 @@ const handlefavorite = () => {
     setIsFavorite(!isFavorite)
 }
   return (
-    <button onClick={handlefavorite} className='cursor-pointer'>
-       {isFavorite ? '❤️' : '🤍'}
-    </button>
+    <button 
+    onClick={handlefavorite}
+    className="w-8 h-8 flex items-center justify-center bg-white/90 hover:bg-white text-black rounded-full 
+              hover:scale-110 transition-all duration-200 shadow-md hover:shadow-lg"
+  >
+    {isFavorite ? '❤️' : '🤍'}
+  </button>
   );
 };
 
