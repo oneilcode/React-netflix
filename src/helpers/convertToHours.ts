@@ -1,4 +1,4 @@
-export function convertToHours(minutes) {
+export function convertToHours(minutes:number) {
     let hours = Math.trunc(minutes/60)
     let mins = minutes % 60
 

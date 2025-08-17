@@ -1,7 +1,12 @@
-import { useTheme } from './../../hooks/useTheme'
+import { useTheme } from '../../hooks/useTheme'
 
-export const Header = ({ searchTerm, setSearchTerm }) => {
-const [theme, toggleTheme] = useTheme()
+interface Props {
+  searchTerm: string,
+  setSearchTerm: (searchTerm:string) => void
+}
+
+export const Header = ({ searchTerm, setSearchTerm } : Props) => {
+const { theme, toggleTheme } = useTheme()
 
   return (
     <header className='mb-10 flex justify-between items-center'>
