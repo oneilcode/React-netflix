@@ -43,8 +43,7 @@ return (
           </div>
 
           <p className="text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis 
-            voluptatum nisi eum doloremque accusamus, temporibus cumque doloribus.
+          {detailedMovie.description}
           </p>
 
           <Link 

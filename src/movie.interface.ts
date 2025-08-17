@@ -7,4 +7,5 @@ export interface IMovie {
     rating: number,
     isFavorite: false,
     trailerYoutubeId: string,
+    description?: string,
 }

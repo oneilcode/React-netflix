@@ -9,7 +9,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FpDKRxvfp5vB3FrHZ0g3oHvnHQKG.jpg',
         rating: 7.7,
         isFavorite: false,
-        trailerYoutubeId: 'V4noigjsRZE'
+        trailerYoutubeId: 'V4noigjsRZE',
+        description: 'Vincent Terranova is an agent with the Organized Crime Bureau infiltrating dangerous criminal organizations, struggling to remain true to himself while becoming close to the criminal leaders he is sworn to bring down.'
     },
     {
         name: 'Pee-wees Playhouse',
@@ -19,7 +20,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fgracenote%2F01c535b41b038fe275e00a22a24653c2.jpg',
         rating: 7.2,
         isFavorite: false,
-        trailerYoutubeId: 'Quo-Oen1wkY'
+        trailerYoutubeId: 'Quo-Oen1wkY',
+        description: 'Pee-wee Herman and his friends have wacky, imaginative fun in his unique playhouse.',
     },
     {
         name: 'The Bold and the Beautiful',
@@ -29,7 +31,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fplex%2F043e4024-8dc8-48d1-9f64-6f4ff3b99eaa.jpg',
         rating: 9.1,
         isFavorite: false,
-        trailerYoutubeId: '7t9cPtA9St0'
+        trailerYoutubeId: '7t9cPtA9St0',
+        description: 'Set in the glamorous world of Los Angeles, The Bold & the Beautiful is an epic saga of love, passion, betrayal, and family',
     },
     {
         name: 'Tasokare Hotel',
@@ -39,7 +42,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fplex%2Fc278da23-c458-4ad5-9517-942a6caa8aed.jpg',
         rating: 8.1,
         isFavorite: false,
-        trailerYoutubeId: 'Lu3uaG7nzvk'
+        trailerYoutubeId: 'Lu3uaG7nzvk',
+        description: 'A hotel stands in twilight between the worlds of the living and the dead, where lost souls can stay for a time to learn where they want to go.',
     },
     {
         name: 'Scare Tactics',
@@ -49,7 +53,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FkSdvAst4xBCf0GICYwOSjTFnE2G.jpg',
         rating: 6.3,
         isFavorite: false,
-        trailerYoutubeId: 'UA3LW7mOduk'
+        trailerYoutubeId: 'UA3LW7mOduk',
+        description: 'A hidden camera prank show where unsuspecting people are put into their own horror movie scenarios by friends and family, blurring reality, horror and comedy.',
     },
     {
         name: 'Farscape',
@@ -59,7 +64,8 @@ export const MOVIES: IMovie[] = [
         img: 'https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FfCJx7cCXKOEkmCVIIyP8qk0Pb7Y.jpg',
         rating: 4.5,
         isFavorite: false,
-        trailerYoutubeId: 'mvXtJLt1T9M'
+        trailerYoutubeId: 'mvXtJLt1T9M',
+        description: 'A one hour documentary/primer aired to prepare new viewers of the Sci-Fi Channels Farscape for the third season. It includes clips from the first two seasons and explanations on each of the main characters.',
     },
     {
         name: 'Materialists',
@@ -69,6 +75,7 @@ export const MOVIES: IMovie[] = [
         img: 'https://static0.srcdn.com/wordpress/wp-content/uploads/2025/06/01717507_poster_w780.jpg',
         rating: 9.1,
         isFavorite: false,
-        trailerYoutubeId: '4A_kmjtsJ7c'
+        trailerYoutubeId: '4A_kmjtsJ7c',
+        description: 'A young, ambitious New York City matchmaker finds herself torn between the perfect match and her imperfect ex.',
     }, 
 ]
