@@ -1,6 +1,6 @@
 import { memo, useState } from "react";
 import  FavoriteButton  from "../FavoriteButton/FavoriteButton";
-import { Modal } from "../Modal";
+import { Modal } from "../Modal/Modal";
 import { Link } from "react-router-dom";
 import type { IMovie } from "../../movie.interface";
 
